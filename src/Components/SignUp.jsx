@@ -1,6 +1,6 @@
 import { Link, Route } from 'react-router-dom';
 import Container from './Container';
-import styles from './SignUP.module.css';
+import styles from './SignUp.module.css';
 const SignUp = () => {
   return (
   <>
