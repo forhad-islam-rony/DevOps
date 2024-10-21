@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Container from './Container';
-import styles from './SignUP.module.css';
+import styles from './LogIn.module.css';
 const SignUp = () => {
   return (
   <>
