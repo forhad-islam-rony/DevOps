@@ -1,0 +1,40 @@
+.signUp{
+  width: 70%;
+ margin: auto;
+}
+.label{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.input{
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.heading{
+  text-align: center;
+}
+.button{
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(68, 97, 68);
+ cursor: pointer;
+}
+.msg{
+  font-size: 20px;
+}
+.logIn{
+  font-size: 22px;
+  cursor: pointer;
+  color: rgb(91, 91, 196);
+}
+.buttondiv{
+  text-align: center;
+}
+.form{
+  text-align: center;
+}
+.msgDiv{
+  text-align: center;
+}
