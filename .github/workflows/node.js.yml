@@ -17,13 +17,12 @@ jobs:
       with:
         node-version: '16.x'
     - run: npm ci
-    - run: npm run build   # Make sure the build step runs
+    - run: npm run build  # Vite builds into 'dist'
+
     - name: Deploy to GitHub Pages
       run: |
         git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
         npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
-
-
 
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
